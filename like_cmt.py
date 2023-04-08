@@ -6,6 +6,15 @@ import random
 time.sleep(3)
 # print(pg.position())
 
+# Open My Browser
+pg.leftClick(944, 1042, 1, 1)
+time.sleep(1)
+
+# Open Instagram Web
+pg.typewrite("instagram.com/")
+pg.press("enter")
+time.sleep(1)
+
 # position of search box: x=643, y=103
 pg.leftClick(643, 103)
 time.sleep(1)
